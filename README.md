@@ -1,7 +1,7 @@
 Links
 []
 # Feature
-## React Router added
+### React Router added
 ## Use Private Route
 ## Wrong Password Notification
 ## Google Authentication
