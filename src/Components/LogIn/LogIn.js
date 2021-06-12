@@ -11,13 +11,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
 } else {
-    firebase.app(); // if already initialized, use that one
+    firebase.app();
 }
 
 
 
 const provider = new firebase.auth.GoogleAuthProvider();
-const gitProvider = new firebase.auth.GithubAuthProvider();
 
 const LogIn = () => {
     let history = useHistory();

@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div>
             <div className="header">
-                <h1>Sawari</h1>
+                <h1 style={{height:"10px"}}>Sawari</h1>
             </div>
             <div className="navigation">
                 <nav>
@@ -15,8 +15,6 @@ const Header = () => {
                     <Link to="/login">Login</Link>
 
                     <Link to="/booked">Booked</Link>
-
-                    
                 </nav>
                
             </div>

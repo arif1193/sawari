@@ -1,5 +1,5 @@
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
-import React, { useState } from 'react';
+import React from 'react';
 import './Book.css';
 
 
@@ -18,8 +18,8 @@ const Book = () => {
 
 
     return (
-        <div className="col-md-3">
-            <div className="row">
+        <div className="row">
+            <div className="col-md-3">
                 <div>
                     <form action="">
                         <div className="picker">
