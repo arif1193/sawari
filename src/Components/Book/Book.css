@@ -1,8 +1,9 @@
 .picker{
     border: 5px solid rgb(228, 217, 217);
     background-color: rgb(147, 172, 172);
-    width: 220px;
+    width: 68%;
     padding: 10px;
     border-radius: 15px;
     text-align: center;
+    margin-left: 18%;
 }
